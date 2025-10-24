@@ -1,7 +1,7 @@
-.PHONY: lint setup  
+.PHONY: lint setup
 
-lint:  
-	pre-commit run --all-files  
+lint:
+	pre-commit run --all-files
 
-setup:  
+setup:
 	pre-commit install
